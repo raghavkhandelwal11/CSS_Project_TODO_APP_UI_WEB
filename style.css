@@ -1,0 +1,91 @@
+html {
+    font-family: 'Raleway', sans-serif;
+}
+
+.background {
+    margin: 100px auto;
+    height: 70vh;
+    width: 62vw;
+    /* background-color: grey; */
+    border-color: red;
+    
+}
+
+.header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-right: 40px; 
+
+}
+
+.cards {
+    text-align: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+
+}
+
+.card {
+    border: 1px solid red;
+    border-radius: 10px;
+    padding: 20px;
+    height: 250px;
+    width: 200px;
+    box-shadow: 10px 10px 5px lightgrey;
+    
+    
+}
+
+.link1 {
+    padding-top: 50px;
+    font-size: 20px;
+}
+
+.red1 {
+    color: red;
+}
+
+.size1 {
+    font-size: 18px;
+}
+
+.adjust {
+    float: right;
+    font-size: 25px;
+}
+
+.size2 {
+    /* width: 150px; */
+    height: 30px;
+    font-size: 23px;
+    padding-top: 10px;
+    font-weight: 100;
+}
+
+.size3 {
+    font-size: 40px;
+}
+
+
+
+hr {
+    position: relative;
+    left: 20px;
+   
+}
+
+a.active {
+    filter: blur(5px);
+}
+
+a {
+    text-decoration: none;
+    color: red;
+}
+
+
+
+

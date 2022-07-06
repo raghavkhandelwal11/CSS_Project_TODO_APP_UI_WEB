@@ -1,0 +1,162 @@
+html {
+    font-family: 'Raleway', sans-serif;
+}
+
+.background {
+    margin: 100px auto;
+    height: 70vh;
+    width: 62vw;
+    /* background-color: grey; */
+    border-color: red;
+    
+}
+
+.header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-right: 40px; 
+
+}
+
+.cards {
+    text-align: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+
+}
+
+.card {
+    border: 1px solid red;
+    border-radius: 10px;
+    padding: 20px;
+    height: 250px;
+    width: 200px;
+    box-shadow: 10px 10px 5px lightgrey;
+    
+    
+}
+
+.link1 {
+    padding-top: 50px;
+    font-size: 20px;
+}
+
+.red1 {
+    color: red;
+}
+
+.size1 {
+    font-size: 18px;
+}
+
+.adjust {
+    float: right;
+    font-size: 25px;
+}
+
+.size2 {
+    /* width: 150px; */
+    height: 30px;
+    font-size: 23px;
+    padding-top: 10px;
+    font-weight: 100;
+}
+
+.size3 {
+    font-size: 40px;
+}
+
+
+
+hr {
+    position: relative;
+    left: 20px;
+   
+}
+
+a.active {
+    filter: blur(5px);
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.blurrr {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    /* background-image: url(./screen.jpeg); */
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    /* -webkit-filter: blur(5px); */
+    filter: blur(5px);
+    z-index: 1;
+}
+
+.in {
+    text-align: center;
+    background: white;
+    color: red;
+    width: 400px;
+    height: 140px;
+    padding: 40px;
+    position: absolute;
+    top: 35vh;
+    left: 33vw;
+    border: 2px solid red;
+    border-radius: 14px;
+    z-index: 2;
+    box-shadow: 10px 10px 5px lightgrey;
+    
+}
+
+.inp1 {
+    width: 300px;
+    padding: 5px;
+    margin-top: 10px;
+    box-shadow: 5px 5px 5px lightgrey;
+    border-radius: 5px;
+    border: 1px solid red;
+}
+
+.b1 {
+    font-size: 16px;
+    height: 35px;
+    width: 70px;
+    background-color: red;
+    border: 2px solid red;
+    color: white;
+    border-radius: 25px;
+}
+
+label {
+    font-size: 20px;
+}
+
+
+
+
